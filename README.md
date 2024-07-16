@@ -7,6 +7,12 @@ SafeWomen is an Android application designed to enhance women's safety by provid
 Features :
 
 User-Friendly Interface: Developed with Java and XML for a smooth and intuitive user experience.
+
+
 Secure Data Management: Integrated Firebase for real-time and secure data handling.
+
+
 Seamless Login: Allows login using phone numbers and usernames to enhance accessibility.
+
+
 Emergency Response: Pioneered an emergency feature for immediate assistance in distress situations.
