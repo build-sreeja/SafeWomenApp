@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA0C0"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:drawableStart="@drawable/ic_baseline_drive_file_rename_outline_24"
+        android:drawablePadding="8dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/edit"
+        android:hint="Enter Name"
+        android:inputType="text"
+
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@drawable/edit"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_add_ic_call_24"
+        android:drawablePadding="8dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Enter phone no."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="369dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_style_new"
+        android:gravity="center"
+        android:text="Insert"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="368dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_style_new"
+        android:gravity="center"
+        android:text="update"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsert" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="365dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_style_new"
+
+        android:gravity="center"
+        android:text="delete"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpdate" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="354dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button_style_new"
+        android:gravity="center"
+        android:text="View"
+
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDelete"
+        app:layout_constraintVertical_bias="0.219" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
